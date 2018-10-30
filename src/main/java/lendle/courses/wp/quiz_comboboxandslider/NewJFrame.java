@@ -91,7 +91,7 @@ public class NewJFrame extends javax.swing.JFrame {
         frame.setLayout(new FlowLayout());
         JComboBox<String> comboBox = new JComboBox<>();
         for(int i=0;i<=99;i++){
-            comboBox.addItem(" "+i);
+            comboBox.addItem(""+i);
         }
         frame.add(comboBox);
         frame.setVisible(true);
