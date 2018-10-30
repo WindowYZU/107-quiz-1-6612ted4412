@@ -90,7 +90,7 @@ public class NewJFrame extends javax.swing.JFrame {
         frame.setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
         frame.setLayout(new FlowLayout());
         JComboBox<String> comboBox = new JComboBox<>();
-        for(int i=0;i<=99;i++){
+        for(int i=0;i<=100;i++){
             comboBox.addItem(""+i);
         }
         frame.add(comboBox);
